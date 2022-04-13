@@ -11,12 +11,14 @@ import { VscSourceControl } from "react-icons/vsc";
 import { AiOutlineCode } from "react-icons/ai";
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import mongolia from '../../assets/images/mongol.png'
-import japan from '../../assets/images/japan.png'
-import america from '../../assets/images/america.jpeg'
-import taiwan from '../../assets/images/taiwan.jpeg'
-import china from '../../assets/images/china.jpeg'
 
+
+
+import mongolia from '../../assets/images/flags/mongolia-flag.png'
+import japan from '../../assets/images/flags/japan-flag.png'
+import america from '../../assets/images/flags/us-flag.png'
+import taiwan from '../../assets/images/flags/taiwan-flag.png'
+import china from '../../assets/images/flags/china-flag.png'
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -67,43 +69,54 @@ const Goal = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div className="container" id="page1">
         <div className={innerClasses}>
           {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
-          <h1 className="center-content" data-reveal-delay="200" style={{color: '#000000'}}>
+          <h1 className="center-content" data-reveal-delay="200" style={{color: '#000000', textAlign:'center'}}>
             Бидний зорилго
           </h1>
           <div className="container-xs">
-            <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+            <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400" style={{textAlign: 'center'}}>
               {/* DL-Circle нь хиймэл оюун ухааны технологийг баг хамт олноороо сурах 
               сурч, ажиллаж буй Монгол залуусын нэгдсэн клуб юм. */}
-              DL-Circle нь хиймэл оюун ухааны технологийг хамтдаа сурах, гадаад дотоодод сурч буй Монгол оюутнуудын нэгдсэн клуб.
+              DL-Circle нь хиймэл оюун ухааны технологийн мэдлэгээ бусдадаа хуваалцаж буй Монгол оюутан залуусын нэгдсэн клуб бөгөөд дараах 3 зорилготой. 
             </p>
           </div>
           <div className={tilesClasses}>
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
-              <div className="tiles-item-inner" style={{alignItems: 'center'}}>
-                  <AiFillStar size='50' style={{color: '#ffffff'}}/>
-                  <p className="text-sm mb-0" style={{color: "#ffffff"}}>
-                    Трэндтэй хөл нийлүүлэн алхах
+              <div 
+                className="tiles-item-inner" 
+                style={{
+                    alignItems: 'center', 
+                    borderRadius: 25, 
+                    backgroundColor:"#F9FAFB",
+                    '&:hover': {
+                      backgroundColor: "#efefef !important",
+                      color:"#00"
+                    },
+                  }
+                }>
+                  <AiFillStar size='100' style={{color: '#E63F92'}}/>
+                  <p className="text-sm mb-0" style={{color: "#E63F92", textAlign: 'center'}}>
+                  DeepLearning технологийн мэдлэгийг судлан хэрэглээнд нэврүүлдэг болох
                   </p>
               </div>
             </div>
 
             <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner" style={{alignItems: 'center'}}>
-                  <VscSourceControl size='50' style={{color: '#ffffff'}}/>
-                  <p className="text-sm mb-0" style={{color: "#ffffff"}}>
-                    Сонгодог ойлголтуудын талаар мэдэж авах
+              <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25, background:"#F9FAFB"}}>
+                  <VscSourceControl size='100' style={{color: '#E63F92', "&:hover":{background:"#392004"}}}/>
+                  <p className="text-sm mb-0" style={{color: "#E63F92", textAlign: 'center'}}>
+                   AI-ийн алгоритм болон програмын сангуудын талаар мэдлэгтэй болох
                   </p>
               </div>
             </div>
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
-              <div className="tiles-item-inner" style={{alignItems: 'center'}}>
-                  <AiOutlineCode size='50' style={{color: '#ffffff'}}/>
-                  <p className="text-sm mb-0" style={{color: "#ffffff"}}>
-                    Моделуудыг өөрсдөө угсарч сурах
+              <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25, background:"#F9FAFB"}}>
+                  <AiOutlineCode size='100' style={{color: '#E63F92'}}/>
+                  <p className="text-sm mb-0" style={{color: "#E63F92", textAlign: 'center'}}>
+                  Судалгааны нийтлэлүүдийг өөрсдөө кодоор угсарч чаддаг болох
                   </p>
               </div>
             </div>
@@ -113,30 +126,20 @@ const Goal = ({
 
           <div className={tilesClasses} style={{marginTop: '3%'}}>
               <Grid container spacing={2}>
-                  <Grid item xs={2.4}>
-                    <Paper>
-                    <img src={mongolia} style={{height: '100px', width: "100%"}}/>
-                    </Paper>
+                  <Grid item xs={4} sm={2.4}>
+                    <img src={mongolia} style={{height: '80%'}}/>
                   </Grid>
-                  <Grid item xs={2.4}>
-                    <Paper>
-                    <img src={japan} style={{height: '100px', width: "100%" }}/>
-                    </Paper>
+                  <Grid item xs={4} sm={2.4}>
+                    <img src={japan} style={{height: '80%'}}/>
                   </Grid>
-                  <Grid item xs={2.4}>
-                    <Paper>
-                    <img src={america} style={{height: '100px', width: "100%"}}/>
-                    </Paper>
+                  <Grid item xs={4} sm={2.4}>
+                    <img src={america} style={{height: '80%'}}/>
                   </Grid>
-                  <Grid item xs={2.4}>
-                    <Paper>
-                    <img src={taiwan} style={{height: '100px', width: "100%"}}/>
-                    </Paper>
+                  <Grid item xs={4} sm={2.4}>
+                    <img src={taiwan} style={{height: '80%'}}/>
                   </Grid>
-                  <Grid item xs={2.4}>
-                    <Paper>
-                    <img src={china} style={{height: '100px', width: "100%"}}/>
-                    </Paper>
+                  <Grid item xs={4} sm={2.4}>
+                    <img src={china} style={{height: '80%'}}/>
                   </Grid>
               </Grid>
               

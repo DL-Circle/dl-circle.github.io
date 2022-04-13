@@ -65,8 +65,8 @@ const JoinUs = ({
             <div className="container-xs">
               <div className="reveal-from-bottom" data-reveal-delay="600">
                   
-                <Button tag="a" style={{ color: '#ffffff', backgroundSize: '100%', backgroundImage: `url(${Background})`, backgroundRepeat: 'no-repeat', border: 'none'}} wideMobile href="https://cruip.com/">
-                    Бидэнтэй нэгдэх
+                <Button tag="a" style={{ color: '#ffffff', background:"linear-gradient(to right, #3CC7EB, #E63F92, #FEA74A)", borderRadius:25}} wideMobile href="https://forms.gle/Qf6BjPaA6eT2aVsj6">
+                Click to Join🎉
                 </Button>
                 <p style={{marginTop: '2%'}} className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                     Та суралцах баг хайж байгаа бол бидэнтэй нэгдээрэй!

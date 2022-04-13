@@ -66,27 +66,27 @@ const Activity = ({
           </h1>
           <div className={tilesClasses}>
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
-              <div className="tiles-item-inner" style={{alignItems: 'center'}}>
-                  <IoDocumentTextSharp size='50' style={{color: '#ffffff'}}/>
-                  <p className="text-sm mb-0" style={{color: "#ffffff"}}>
+              <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25}}>
+                  <IoDocumentTextSharp size='75' style={{color: '#ffffff'}}/>
+                  <p className="text-sm mb-0" style={{color: "#ffffff", textAlign:'center'}}>
                     Судалгааны нийтлэл унших, илтгэл тавих
                   </p>
               </div>
             </div>
 
             <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner" style={{alignItems: 'center'}}>
-                  <IoNewspaperOutline size='50' style={{color: '#ffffff'}}/>
-                  <p className="text-sm mb-0" style={{color: "#ffffff"}}>
+              <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25}}>
+                  <IoNewspaperOutline size='75' style={{color: '#ffffff'}}/>
+                  <p className="text-sm mb-0" style={{color: "#ffffff", textAlign:'center'}}>
                     Хиймэл оюунтай холбоотой орчин цагийн мэдээ танилцуулах
                   </p>
               </div>
             </div>
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
-              <div className="tiles-item-inner" style={{alignItems: 'center'}}>
-                  <AiOutlinePlusCircle size='50' style={{color: '#ffffff'}}/>
-                  <p className="text-sm mb-0" style={{color: "#ffffff"}}>
+              <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25}}>
+                  <AiOutlinePlusCircle size='75' style={{color: '#ffffff'}}/>
+                  <p className="text-sm mb-0" style={{color: "#ffffff", textAlign:'center'}}>
                     Нэмэлт үйл ажиллагаа явуулах
                   </p>
               </div>

@@ -19,7 +19,8 @@ const defaultProps = {
   loading: false,
   wide: false,
   wideMobile: false,
-  disabled: false
+  disabled: false,
+  borderRadius: 25
 }
 
 const Button = ({

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 import Logo from './partials/Logo';
 import Background from '../../assets/images/background.png'
 
@@ -75,11 +76,12 @@ const Header = ({
     className
   );
 
+  const history = useHistory();
+
   return (
     <header
       {...props}
       className={classes}
-      style={{backgroundColor: 'rgba(255, 255, 255, 0.3)'}}
     >
       <div className="container"
         >
@@ -118,11 +120,10 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link style={{color:'#ffffff'}} to="#0" onClick={closeMenu}>Бидний тухай
-                      </Link>
+                      <a style={{color:'#ffffff'}} href="#section1" onClick={closeMenu}>Бидний тухай</a>
                     </li>
                     <li>
-                      <Link to="#0" style={{color:'#ffffff'}} onClick={closeMenu}> Зорилго </Link>
+                      <a href="#section2" style={{color:'#ffffff'}} onClick={closeMenu}> Үйл ажиллагаа </a>
                     </li>
                     {/* <li>
                       <Link to="#0" onClick={closeMenu}>Join Us</Link>
@@ -133,7 +134,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" style={{ backgroundSize: '100%', backgroundImage: `url(${Background})`, backgroundRepeat: 'no-repeat', border: 'none'}} className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}> Бидэнтэй нэгдэх</Link>
+                        <a href="https://forms.gle/gudczoZiqfqwYWEn9" style={{backgroundColor:"#3CC7EB", borderRadius: 25}} className="button button-primary button-wide-mobile button-sm"> Click to Join🎉 </a>
                       </li>
                     </ul>}
                 </div>

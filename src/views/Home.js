@@ -22,8 +22,8 @@ const Home = () => {
       {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
       {/* <Testimonial topDivider /> */}
       {/* <Cta split /> */}
-      <Goal className="illustration-section-01" />
-      <Activity className="illustration-section-01" />
+      <Goal className="illustration-section-01" id="section1" />
+      <Activity className="illustration-section-01" id="section2" />
       <JoinUs className="illustration-section-01"/>
     </>
   );
