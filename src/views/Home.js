@@ -23,6 +23,7 @@ const Home = () => {
       {/* <Testimonial topDivider /> */}
       {/* <Cta split /> */}
       <Goal className="illustration-section-01" id="section1" />
+      <FeaturesSplit className="illustration-section-01" id="section3" />
       <Activity className="illustration-section-01" id="section2" />
       <JoinUs className="illustration-section-01"/>
     </>

@@ -39,13 +39,21 @@ const itemData = [
     title: 'Kitchen',
   },
   {
-    img: 'https://drive.google.com/uc?export=view&id=1bjzlHUX04jsmnEBhtFh5s-7qESK2SFgw',
+    img: 'https://images.unsplash.com/photo-1589307004173-3c95204d00ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
+    title: 'pink'
+  },
+  // {
+  //   img: 'https://drive.google.com/uc?export=view&id=1bjzlHUX04jsmnEBhtFh5s-7qESK2SFgw',
+  //   title: 'Bed',
+  // },
+  {
+    img: 'https://drive.google.com/uc?export=view&id=1ENy8Pnd7oFHjzTif-1Z6KTWG3kA8tTPJ',
     title: 'Bed',
   },
   {
-    img: 'https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-    title: 'code'
-  }
+    img: 'https://drive.google.com/uc?export=view&id=1ZUUXidZxTlD8EEeoqqVbN6wxmBQbKK-p',
+    title: 'Bed',
+  },
 ]
 
 const MasonryImageList = (props) => {
@@ -122,14 +130,14 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-    <canvas ref={ref} />
       <div className="container-sm" >
         <div className={innerClasses}>
           <Grid container>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={12} md={6}>
+            <canvas ref={ref} height={100} />
             <div className="hero-content">
               {/* <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200" style={{color: '#000000'}}> */}
-              <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200" style={{textAlign: "start"}}>
+              <h1 className="pt-16 mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200" style={{textAlign: "start", top: "50%"}}>
                 {/*Deep learning <span className="text-color-primary">Circle</span>*/}
                 DeepLearning Paper reading Circle
               </h1>
@@ -141,7 +149,7 @@ const Hero = ({
               </div>
             </div>
             </Grid>
-            <Grid item xs={12} sm={6} >
+            <Grid item xs={12} sm={12} md={6}>
               <MasonryImageList itemData={itemData} />
             </Grid>
           </Grid>

@@ -45,7 +45,13 @@ const SectionHeader = ({
                 classNames(
                   'mt-0',
                   data.paragraph ? 'mb-16' : 'mb-0'
-                )}>{data.title}</Component>
+                )}
+                style={{
+                  background:"linear-gradient(to right, #3CC7EB, #E63F92, #FEA74A)",
+                  webkitBackgroundClip:"text",
+                  webkitTextFillColor: "transparent",
+                }} 
+                >{data.title}</Component>
             }
             {data.paragraph &&
               <p className="m-0">{data.paragraph}</p>

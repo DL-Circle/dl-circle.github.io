@@ -69,7 +69,7 @@ const Activity = ({
               <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25}}>
                   <IoDocumentTextSharp size='75' style={{color: '#ffffff'}}/>
                   <p className="text-sm mb-0" style={{color: "#ffffff", textAlign:'center'}}>
-                    Судалгааны нийтлэл унших, илтгэл тавих
+                     Сард 1хэн удаа судалгааны нийтлэл уншаад, олон судалгааны илтгэл сонсох (1output many input)
                   </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Activity = ({
               <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25}}>
                   <IoNewspaperOutline size='75' style={{color: '#ffffff'}}/>
                   <p className="text-sm mb-0" style={{color: "#ffffff", textAlign:'center'}}>
-                    Хиймэл оюунтай холбоотой орчин цагийн мэдээ танилцуулах
+                     Дэлхий дахинд трэнд болж буй хиймэл оюуны мэдээ технологийг мэдэх
                   </p>
               </div>
             </div>
@@ -87,7 +87,8 @@ const Activity = ({
               <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25}}>
                   <AiOutlinePlusCircle size='75' style={{color: '#ffffff'}}/>
                   <p className="text-sm mb-0" style={{color: "#ffffff", textAlign:'center'}}>
-                    Нэмэлт үйл ажиллагаа явуулах
+                    Нэмэлт үйл ажиллагаа оруулах болноо!
+                    {/* Дэлхийд тэргүүлэх их сургууль, компаний оюунтан мэргэжилтнүүдээс туршлага судлах */}
                   </p>
               </div>
             </div>

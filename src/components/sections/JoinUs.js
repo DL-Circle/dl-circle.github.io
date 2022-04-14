@@ -64,7 +64,6 @@ const JoinUs = ({
           <div className="hero-content">
             <div className="container-xs">
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                  
                 <Button tag="a" style={{ color: '#ffffff', background:"linear-gradient(to right, #3CC7EB, #E63F92, #FEA74A)", borderRadius:25}} wideMobile href="https://forms.gle/Qf6BjPaA6eT2aVsj6">
                 Click to Join🎉
                 </Button>
@@ -72,6 +71,12 @@ const JoinUs = ({
                     Та суралцах баг хайж байгаа бол бидэнтэй нэгдээрэй!
                 </p>
               </div>
+              <div className="reveal-from-bottom" data-reveal-delay="600">
+              <p style={{marginTop: '10%'}} className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                    Sample Presentation
+                </p>
+              </div>
+              <iframe src="https://drive.google.com/uc?export=view&id=1DXsKhgMnvxBz0xlflxqhhhfn7s8EU-kb" width="100%" height="480"></iframe>
             </div>
           </div>
           {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">

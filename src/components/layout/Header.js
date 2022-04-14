@@ -123,6 +123,9 @@ const Header = ({
                       <a style={{color:'#ffffff'}} href="#section1" onClick={closeMenu}>Бидний тухай</a>
                     </li>
                     <li>
+                      <a href="#section3" style={{color:'#ffffff'}} onClick={closeMenu}> Баримтлах зүйлс </a>
+                    </li>
+                    <li>
                       <a href="#section2" style={{color:'#ffffff'}} onClick={closeMenu}> Үйл ажиллагаа </a>
                     </li>
                     {/* <li>

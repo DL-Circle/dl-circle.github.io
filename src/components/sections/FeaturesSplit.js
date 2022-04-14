@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Value',
+    paragraph: 'DL-Circle-ийн баримтлах зүйлс'
   };
 
   return (
@@ -61,19 +61,27 @@ const FeaturesSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader 
+            data={sectionHeader} 
+            className="center-content" 
+            // style={{
+            //   background:"linear-gradient(to bottom, #3CC7EB, #E63F92, #FEA74A)",
+            //   webkitBackgroundClip:"text",
+            //   webkitTextFillColor: "transparent",
+            // }} 
+            />
           <div className={splitClasses}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Diversity
                   </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                <h3 className="mt-0 mb-4">
+                  Diversity
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Монгол улс болон, гадаадад сурч буй Монголчууд. Оюутан болон судлаач, инженер-үүд
                   </p>
               </div>
               <div className={
@@ -92,14 +100,14 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-3">
+                  State of the Art
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  State of the Art
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Трэнд болж байгаа шинэ зүйл болон, сонгодог чухал зүйлүүдийг мэдэж авах.
                   </p>
               </div>
               <div className={
@@ -119,13 +127,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                Efficiency
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                Efficiency
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Ажил хичээлийн хажуугаар ч шинэ мэдлэг олохын тулд, 1~2сард ганцхан илтгэл тавиад, олон мэдээллийг сонсож авах.
                   </p>
               </div>
               <div className={
