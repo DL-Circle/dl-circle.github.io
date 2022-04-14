@@ -69,7 +69,7 @@ const Activity = ({
               <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25}}>
                   <IoDocumentTextSharp size='75' style={{color: '#ffffff'}}/>
                   <p className="text-sm mb-0" style={{color: "#ffffff", textAlign:'center'}}>
-                     Сард 1хэн удаа судалгааны нийтлэл уншаад, олон судалгааны илтгэл сонсох (1output many input)
+                     Сард нэгхэн удаа судалгааны нийтлэл уншаад, олон судалгааны илтгэл сонсох (1output many input)
                   </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Activity = ({
               <div className="tiles-item-inner" style={{alignItems: 'center', borderRadius: 25}}>
                   <IoNewspaperOutline size='75' style={{color: '#ffffff'}}/>
                   <p className="text-sm mb-0" style={{color: "#ffffff", textAlign:'center'}}>
-                     Дэлхий дахинд трэнд болж буй хиймэл оюуны мэдээ технологийг мэдэх
+                     Дэлхий дахинд тренд болж буй хиймэл оюуны мэдээ, технологийг мэдэх
                   </p>
               </div>
             </div>

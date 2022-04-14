@@ -98,7 +98,7 @@ const Goal = ({
                 }>
                   <AiFillStar size='100' style={{color: '#E63F92'}}/>
                   <p className="text-sm mb-0" style={{color: "#E63F92", textAlign: 'center'}}>
-                  DeepLearning технологийн мэдлэгийг судлан хэрэглээнд нэврүүлдэг болох
+                  DeepLearning технологийн мэдлэгийг судлан хэрэглээнд нэвтрүүлдэг болох
                   </p>
               </div>
             </div>
