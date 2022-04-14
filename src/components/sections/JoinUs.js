@@ -72,8 +72,8 @@ const JoinUs = ({
                 </p>
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-              <p style={{marginTop: '10%'}} className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                    Sample Presentation
+              <p style={{marginTop: '10%'}} className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400" style={{fontWeight: "bold"}}>
+                    Presentation Sample⤵️
                 </p>
               </div>
               <iframe src="https://drive.google.com/uc?export=view&id=1DXsKhgMnvxBz0xlflxqhhhfn7s8EU-kb" width="100%" height="480"></iframe>
