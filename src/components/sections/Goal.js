@@ -19,6 +19,8 @@ import japan from '../../assets/images/flags/japan-flag.png'
 import america from '../../assets/images/flags/us-flag.png'
 import taiwan from '../../assets/images/flags/taiwan-flag.png'
 import china from '../../assets/images/flags/china-flag.png'
+import australia from '../../assets/images/flags/australia-flag.png'
+import singapore from '../../assets/images/flags/singapore-flag.png'
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -126,23 +128,28 @@ const Goal = ({
 
           <div className={tilesClasses} style={{marginTop: '3%'}}>
               <Grid container spacing={2}>
-                  <Grid item xs={4} sm={2.4}>
-                    <img src={mongolia} style={{height: '80%'}}/>
+                  <Grid item xs={4} sm={1.7}>
+                    <img src={mongolia} style={{height: '100%'}}/>
                   </Grid>
-                  <Grid item xs={4} sm={2.4}>
-                    <img src={japan} style={{height: '80%'}}/>
+                  <Grid item xs={4} sm={1.7}>
+                    <img src={japan} style={{height: '100%'}}/>
                   </Grid>
-                  <Grid item xs={4} sm={2.4}>
-                    <img src={america} style={{height: '80%'}}/>
+                  <Grid item xs={4} sm={1.7}>
+                    <img src={america} style={{height: '100%'}}/>
                   </Grid>
-                  <Grid item xs={4} sm={2.4}>
-                    <img src={taiwan} style={{height: '80%'}}/>
+                  <Grid item xs={4} sm={1.7}>
+                    <img src={taiwan} style={{height: '100%'}}/>
                   </Grid>
-                  <Grid item xs={4} sm={2.4}>
-                    <img src={china} style={{height: '80%'}}/>
+                  <Grid item xs={4} sm={1.7}>
+                    <img src={china} style={{height: '100%'}}/>
+                  </Grid>
+                  <Grid item xs={4} sm={1.7}>
+                    <img src={australia} style={{height: '100%'}}/>
+                  </Grid>
+                  <Grid item xs={4} sm={1.7}>
+                    <img src={singapore} style={{height: '100%'}}/>
                   </Grid>
               </Grid>
-              
           </div>
         
         </div>
